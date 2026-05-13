@@ -38,6 +38,10 @@ h2 {
     color: deeppink;
     text-decoration: none;
 }
+
+.toplinks-right {
+    float: right;
+}
 .banner {
     background-color: pink;
     padding: 20px;
@@ -66,6 +70,13 @@ h2 {
         float: none;
         border-bottom: #373737 1px solid;
     }
+}
+.sidebar a {
+    color: #373737;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    text-decoration: underline;
 }
 .footer {
     background-color: deeppink;
@@ -131,6 +142,7 @@ tr:hover {
 .contact-form input[type="text"],
 .contact-form input[type="number"],
 .contact-form input[type="email"],
+.contact-form input[type="password"],
 .contact-form textarea,.contact-form select {
     width: 100%;
     padding: 10px;
